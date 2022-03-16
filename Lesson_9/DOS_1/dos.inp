@@ -1,0 +1,4 @@
+&DOS
+    prefix = 'scf'
+    outdir = '/home/theodoros/PROJ_TUTORIALS/theodoros/Lesson_9/SCF/tmp'
+ /

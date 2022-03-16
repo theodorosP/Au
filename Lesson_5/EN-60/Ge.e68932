@@ -1,0 +1,98 @@
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 12 in communicator MPI_COMM_WORLD 
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00000034BD20E48D  Unknown               Unknown  Unknown
+pw.x               0000000000E2CBA2  Unknown               Unknown  Unknown
+pw.x               0000000000E2DB66  Unknown               Unknown  Unknown
+pw.x               0000000000E66083  Unknown               Unknown  Unknown
+pw.x               0000000000B70078  errore_                   100  error_handler.f90
+pw.x               000000000087F922  read_input_mp_rea          54  read_input.f90
+pw.x               0000000000484D97  MAIN__                     69  pwscf.f90
+pw.x               0000000000484BEC  Unknown               Unknown  Unknown
+libc.so.6          00000034BC61ECDD  Unknown               Unknown  Unknown
+pw.x               0000000000484AE9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00000034BD20E48D  Unknown               Unknown  Unknown
+pw.x               0000000000E2CBA2  Unknown               Unknown  Unknown
+pw.x               0000000000E2DB66  Unknown               Unknown  Unknown
+pw.x               0000000000E66083  Unknown               Unknown  Unknown
+pw.x               0000000000E6354E  Unknown               Unknown  Unknown
+pw.x               0000000000B7001B  errore_                    99  error_handler.f90
+pw.x               000000000087F922  read_input_mp_rea          54  read_input.f90
+pw.x               0000000000484D97  MAIN__                     69  pwscf.f90
+pw.x               0000000000484BEC  Unknown               Unknown  Unknown
+libc.so.6          00000034BC61ECDD  Unknown               Unknown  Unknown
+pw.x               0000000000484AE9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00000034BD20E48D  Unknown               Unknown  Unknown
+pw.x               0000000000E2CBA2  Unknown               Unknown  Unknown
+pw.x               0000000000E2DB66  Unknown               Unknown  Unknown
+pw.x               0000000000E66083  Unknown               Unknown  Unknown
+pw.x               0000000000B70078  errore_                   100  error_handler.f90
+pw.x               000000000087F922  read_input_mp_rea          54  read_input.f90
+pw.x               0000000000484D97  MAIN__                     69  pwscf.f90
+pw.x               0000000000484BEC  Unknown               Unknown  Unknown
+libc.so.6          00000034BC61ECDD  Unknown               Unknown  Unknown
+pw.x               0000000000484AE9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00000034BD20E48D  Unknown               Unknown  Unknown
+pw.x               0000000000E2CBA2  Unknown               Unknown  Unknown
+pw.x               0000000000E2DB66  Unknown               Unknown  Unknown
+pw.x               0000000000E66083  Unknown               Unknown  Unknown
+pw.x               0000000000E6354E  Unknown               Unknown  Unknown
+pw.x               0000000000B700ED  errore_                   103  error_handler.f90
+pw.x               000000000087F922  read_input_mp_rea          54  read_input.f90
+pw.x               0000000000484D97  MAIN__                     69  pwscf.f90
+pw.x               0000000000484BEC  Unknown               Unknown  Unknown
+libc.so.6          00000034BC61ECDD  Unknown               Unknown  Unknown
+pw.x               0000000000484AE9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00000034BD20E54D  Unknown               Unknown  Unknown
+pw.x               0000000000E083BB  Unknown               Unknown  Unknown
+pw.x               0000000000E07BE3  Unknown               Unknown  Unknown
+pw.x               0000000000B7011B  errore_                   105  error_handler.f90
+pw.x               000000000087F922  read_input_mp_rea          54  read_input.f90
+pw.x               0000000000484D97  MAIN__                     69  pwscf.f90
+pw.x               0000000000484BEC  Unknown               Unknown  Unknown
+libc.so.6          00000034BC61ECDD  Unknown               Unknown  Unknown
+pw.x               0000000000484AE9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00000034BD20E54D  Unknown               Unknown  Unknown
+pw.x               0000000000E083BB  Unknown               Unknown  Unknown
+pw.x               0000000000E07BE3  Unknown               Unknown  Unknown
+pw.x               0000000000B7011B  errore_                   105  error_handler.f90
+pw.x               000000000087F922  read_input_mp_rea          54  read_input.f90
+pw.x               0000000000484D97  MAIN__                     69  pwscf.f90
+pw.x               0000000000484BEC  Unknown               Unknown  Unknown
+libc.so.6          00000034BC61ECDD  Unknown               Unknown  Unknown
+pw.x               0000000000484AE9  Unknown               Unknown  Unknown
+--------------------------------------------------------------------------
+orterun has exited due to process rank 12 with PID 23842 on
+node node011 exiting improperly. There are two reasons this could occur:
+
+1. this process did not call "init" before exiting, but others in
+the job did. This can cause a job to hang indefinitely while it waits
+for all processes to call "init". By rule, if one process calls "init",
+then ALL processes must call "init" prior to termination.
+
+2. this process called "init", but exited without calling "finalize".
+By rule, all processes that call "init" MUST call "finalize" prior to
+exiting or it will be considered an "abnormal termination"
+
+This may have caused other processes in the application to be
+terminated by signals sent by orterun (as reported here).
+--------------------------------------------------------------------------
+[node011:23622] 9 more processes have sent help message help-mpi-api.txt / mpi-abort
+[node011:23622] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

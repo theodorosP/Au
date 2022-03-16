@@ -1,0 +1,1 @@
+If we want to find the true energy of the system of K points, this would to go to infinite. However, this is too computationally expensive. Finding optimal K point would give us for a good approximation to find total energy without having to waste compuataitonal resouces. So we reduce the time that we have to run our program

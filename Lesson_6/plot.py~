@@ -1,0 +1,25 @@
+import matplotlib.pyplot as plt
+import numpy as np
+data = np.loadtxt("DATA.dat")
+grid = data[:,0]
+energy = data[:,1]
+time = data[:,2]
+k_points = data[:,3]
+
+con_en = 0.000073499
+a = 0
+for i in range(1,len(energy)):
+	en_dif = np.array(energy[i-1] - energy[i])
+	if en_dif < con_en:
+		a =i
+	break
+
+energy = energy*13.605698
+
+plt.plot(grid , energy)
+plt.xlabel("Number of grid points")
+plt.ylabel("Total energy")
+plt.scatter(k_points[a],energy[a],s = 100,label= 'K-point sample ' + str(int(k_points[a])))
+plt.legend(loc=3) 
+plt.show()
+

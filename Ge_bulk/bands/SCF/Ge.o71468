@@ -1,0 +1,9 @@
+LIST OF FILES:
+total 72K
+-rw-r----- 1 theodoros dfttutorials  249 Sep  9 19:16 job
+-rw-r----- 1 theodoros dfttutorials 1.8K Sep 10 01:03 input.inp
+drwxr-s--- 3 theodoros dfttutorials 4.0K Sep 10 01:05 tmp
+-rw-r----- 1 theodoros dfttutorials  45K Sep 10 01:05 output.dat
+-rw-r----- 1 theodoros dfttutorials 1.7K Sep 10 01:06 write_input.py~
+drwxr-s--- 3 theodoros dfttutorials 4.0K Sep 10 01:15 Fermi_Energy
+-rw-r----- 1 theodoros dfttutorials 1.5K Sep 10 21:47 write_input.py

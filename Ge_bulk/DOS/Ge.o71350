@@ -1,0 +1,17 @@
+LIST OF FILES:
+total 116K
+-rw-r----- 1 theodoros dfttutorials  105 Sep  8 14:19 dos.inp
+-rw-r----- 1 theodoros dfttutorials  249 Sep  8 14:19 job
+-rw-r----- 1 theodoros dfttutorials  251 Sep  8 14:20 job_modified
+-rw-r----- 1 theodoros dfttutorials  274 Sep  8 14:49 plot1.py
+-rw-r----- 1 theodoros dfttutorials 1.6K Sep  8 17:10 write_input.py~
+-rw-r----- 1 theodoros dfttutorials 1.6K Sep  8 17:10 write_input.py
+-rw-r----- 1 theodoros dfttutorials 1.9K Sep  8 17:13 input.inp~
+-rw-r----- 1 theodoros dfttutorials  52K Sep  8 17:14 scf.dos
+-rw-r----- 1 theodoros dfttutorials 1.6K Sep  8 17:15 output_1.dat
+-rw------- 1 theodoros dfttutorials  672 Sep  8 17:15 Ge.o71349
+-rw------- 1 theodoros dfttutorials 4.6K Sep  8 17:15 Ge.e71349
+-rw-r----- 1 theodoros dfttutorials 1.9K Sep  8 17:15 input_tmp.in
+-rw-r----- 1 theodoros dfttutorials  277 Sep  8 17:15 CRASH
+-rw-r----- 1 theodoros dfttutorials 5.0K Sep  8 17:15 output.dat
+-rw-r----- 1 theodoros dfttutorials 1.9K Sep  8 17:16 input.inp

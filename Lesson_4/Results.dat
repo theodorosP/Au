@@ -1,0 +1,37 @@
+Program that is used:
+	PWSCF
+Version of the program used:
+	v.6.2
+Date program started:
+	28 May 2020
+Time the program started:
+	 14: 0:19 
+Number of used processors:
+	16
+Unit-cell volume:
+	304.2860 (a.u.)
+number of atoms:
+	2
+number of atomic types:
+	1
+number of elections: 
+	8.00
+number of bands:
+kinetic energy cutoff
+	50.000 Ry 
+chargerge density cutoff
+	200.000 Ry
+convergence threshold
+	1.0E-06 
+number of k points
+	120 
+potential file
+	Ge.pbe-n-kjpaw_psl.1.0.0.UPF 
+number of valence electron per atom 
+	4 
+number of iterations
+	8 
+total energy
+	-328.23398463 Ry 
+date and time when program stoped
+	 14: 1:51  28May2020

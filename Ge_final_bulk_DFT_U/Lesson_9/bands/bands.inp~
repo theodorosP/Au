@@ -1,0 +1,5 @@
+&BANDS
+    prefix = 'scf'
+    outdir = '/home/theodoros/PROJ_TUTORIALS/theodoros/Ge_final_bulk_DFT_U/Lesson_9/SCF/tmp'
+    filband = 'bands.dat'
+ /

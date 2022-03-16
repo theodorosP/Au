@@ -1,0 +1,7 @@
+&DOS
+    prefix = 'scf'
+    outdir = '/home/theodoros/PROJ_TUTORIALS/theodoros/Ge_final_bulk_DFT_U/Lesson_9/SCF/tmp'
+    Emin = -10
+    Emax = 15
+    DeltaE = 0.01
+ /

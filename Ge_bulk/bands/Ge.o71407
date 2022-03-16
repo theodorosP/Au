@@ -1,0 +1,18 @@
+LIST OF FILES:
+total 692K
+-rw-r----- 1 theodoros dfttutorials  133 Sep  8 13:04 bands.inp
+-rw-r----- 1 theodoros dfttutorials  313 Sep  8 13:04 gen_k.py
+-rw-r----- 1 theodoros dfttutorials  249 Sep  8 13:05 job
+-rw-r----- 1 theodoros dfttutorials  251 Sep  8 13:05 job_modified
+-rw-r----- 1 theodoros dfttutorials  30K Sep  8 13:59 KPOINTS.0
+-rw-r----- 1 theodoros dfttutorials  27K Sep  8 13:59 KLIST
+-rw-r----- 1 theodoros dfttutorials 1.5K Sep  8 16:54 write_input.py
+-rw-r----- 1 theodoros dfttutorials  32K Sep  8 16:55 input.inp
+-rw-r----- 1 theodoros dfttutorials  83K Sep  8 16:59 bands.dat.gnu
+-rw-r----- 1 theodoros dfttutorials  56K Sep  8 16:59 bands.dat
+-rw-r----- 1 theodoros dfttutorials  55K Sep  8 16:59 bands.dat.rap
+-rw-r----- 1 theodoros dfttutorials 348K Sep  8 16:59 bands.out
+-rw-r----- 1 theodoros dfttutorials  18K Sep  8 17:08 BANDS_DFT.png
+-rw-r----- 1 theodoros dfttutorials  725 Sep  8 18:34 plot1.py
+drwxr-s--- 3 theodoros dfttutorials 4.0K Sep  9 19:18 SCF
+-rw-r----- 1 theodoros dfttutorials 4.5K Sep 10 00:38 output.dat

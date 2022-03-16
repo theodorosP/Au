@@ -1,0 +1,73 @@
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 6 in communicator MPI_COMM_WORLD 
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    0000003799A0E48D  Unknown               Unknown  Unknown
+bands.x            0000000000BDC7C2  Unknown               Unknown  Unknown
+bands.x            0000000000BDD786  Unknown               Unknown  Unknown
+bands.x            0000000000C13F09  Unknown               Unknown  Unknown
+bands.x            0000000000C12C6E  Unknown               Unknown  Unknown
+bands.x            000000000096879D  errore_                   103  error_handler.f90
+bands.x            00000000005F5E02  pw_restart_new_mp         744  pw_restart_new.f90
+bands.x            00000000004C3A3D  read_xml_file_            167  read_file_new.f90
+bands.x            00000000004C34C4  read_file_                 57  read_file_new.f90
+bands.x            000000000047447A  MAIN__                    110  bands.f90
+bands.x            000000000047406C  Unknown               Unknown  Unknown
+libc.so.6          000000379961ECDD  Unknown               Unknown  Unknown
+bands.x            0000000000473F69  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libc.so.6          00000037996A6FB5  Unknown               Unknown  Unknown
+libc.so.6          00000037996A69B2  Unknown               Unknown  Unknown
+libmpi.so.1        00002AF6A0D9ECA1  Unknown               Unknown  Unknown
+libmpi.so.1        00002AF6A0CE2872  Unknown               Unknown  Unknown
+libmpi.so.1        00002AF6A0CF5EDB  Unknown               Unknown  Unknown
+libmpi.so.1        00002AF6A0BB6E11  Unknown               Unknown  Unknown
+libmpi.so.1        00002AF6A0BC3043  Unknown               Unknown  Unknown
+libmpi_f77.so.1    00002AF6A091161A  Unknown               Unknown  Unknown
+bands.x            0000000000980E7C  mp_mp_mp_abort_           170  mp.f90
+bands.x            00000000009687DC  errore_                   109  error_handler.f90
+bands.x            00000000005F5E02  pw_restart_new_mp         744  pw_restart_new.f90
+bands.x            00000000004C3A3D  read_xml_file_            167  read_file_new.f90
+bands.x            00000000004C34C4  read_file_                 57  read_file_new.f90
+bands.x            000000000047447A  MAIN__                    110  bands.f90
+bands.x            000000000047406C  Unknown               Unknown  Unknown
+libc.so.6          000000379961ECDD  Unknown               Unknown  Unknown
+bands.x            0000000000473F69  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    0000003799A0E54D  Unknown               Unknown  Unknown
+bands.x            0000000000BB7FDB  Unknown               Unknown  Unknown
+bands.x            0000000000BB7803  Unknown               Unknown  Unknown
+bands.x            00000000009687CB  errore_                   105  error_handler.f90
+bands.x            00000000005F5E02  pw_restart_new_mp         744  pw_restart_new.f90
+bands.x            00000000004C3A3D  read_xml_file_            167  read_file_new.f90
+bands.x            00000000004C34C4  read_file_                 57  read_file_new.f90
+bands.x            000000000047447A  MAIN__                    110  bands.f90
+bands.x            000000000047406C  Unknown               Unknown  Unknown
+libc.so.6          000000379961ECDD  Unknown               Unknown  Unknown
+bands.x            0000000000473F69  Unknown               Unknown  Unknown
+--------------------------------------------------------------------------
+orterun has exited due to process rank 6 with PID 19777 on
+node node002 exiting improperly. There are two reasons this could occur:
+
+1. this process did not call "init" before exiting, but others in
+the job did. This can cause a job to hang indefinitely while it waits
+for all processes to call "init". By rule, if one process calls "init",
+then ALL processes must call "init" prior to termination.
+
+2. this process called "init", but exited without calling "finalize".
+By rule, all processes that call "init" MUST call "finalize" prior to
+exiting or it will be considered an "abnormal termination"
+
+This may have caused other processes in the application to be
+terminated by signals sent by orterun (as reported here).
+--------------------------------------------------------------------------
+[node002:19770] 13 more processes have sent help message help-mpi-api.txt / mpi-abort
+[node002:19770] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

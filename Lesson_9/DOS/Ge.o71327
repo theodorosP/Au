@@ -1,0 +1,16 @@
+LIST OF FILES:
+total 156K
+-rw-r----- 1 theodoros dfttutorials  250 Jun 19 10:40 job
+-rw-r----- 1 theodoros dfttutorials  251 Jun 27 16:18 job_modified
+-rw-r----- 1 theodoros dfttutorials 1.9K Jun 29 14:31 input.inp~
+-rw-r----- 1 theodoros dfttutorials 1.9K Jun 29 14:37 input.inp
+-rw-r----- 1 theodoros dfttutorials  212 Jun 29 14:37 Ge.o69507
+-rw-r----- 1 theodoros dfttutorials    0 Jun 29 14:37 Ge.e69507
+-rw-r----- 1 theodoros dfttutorials  22K Jun 29 14:39 output.dat
+-rw-r----- 1 theodoros dfttutorials  100 Jun 29 17:54 dos.inp
+-rw-r----- 1 theodoros dfttutorials  597 Jun 29 17:54 Ge.o69515
+-rw-r----- 1 theodoros dfttutorials    0 Jun 29 17:54 Ge.e69515
+-rw-r----- 1 theodoros dfttutorials  50K Jun 29 17:54 scf.dos
+-rw-r----- 1 theodoros dfttutorials 1.6K Jun 29 17:54 output_1.dat
+-rw-r----- 1 theodoros dfttutorials  245 Jun 30 05:45 plot1.py
+-rw-r----- 1 theodoros dfttutorials  41K Jun 30 06:01 energy_vs_density_of_states.png

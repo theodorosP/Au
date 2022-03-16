@@ -1,0 +1,11 @@
+LIST OF FILES:
+total 32K
+-rw-r----- 1 theodoros dfttutorials  251 Jul  1 06:22 job_modified
+-rw-r----- 1 theodoros dfttutorials  250 Jul  1 06:22 job
+-rw-r----- 1 theodoros dfttutorials 1.9K Jul  1 06:22 input.inp~
+-rw-r----- 1 theodoros dfttutorials  100 Jul  1 06:22 dos.inp
+-rw-r----- 1 theodoros dfttutorials  343 Jul  1 06:22 gen_k.py
+-rw-r----- 1 theodoros dfttutorials 1.9K Jul  1 06:23 KPOINTS.0
+-rw-r----- 1 theodoros dfttutorials 1.7K Jul  1 06:23 KLIST
+-rw-r----- 1 theodoros dfttutorials 3.7K Jul  1 06:24 input.inp
+-rw-r----- 1 theodoros dfttutorials    0 Jul  1 06:25 output.dat
